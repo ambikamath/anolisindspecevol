@@ -1,0 +1,43 @@
+#NEXUS
+[R-package APE, Mon Feb 26 09:40:09 2018]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 15;
+	TAXLABELS
+		cristatellus
+		gundlachi
+		krugi
+		sagrei
+		grahami
+		valencienni
+		lineatopus
+		angusticeps
+		sheplani
+		smaragdinus
+		carolinensis
+		cybotes
+		olssoni
+		coelestinus
+		bahorucoensis
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	cristatellus,
+		2	gundlachi,
+		3	krugi,
+		4	sagrei,
+		5	grahami,
+		6	valencienni,
+		7	lineatopus,
+		8	angusticeps,
+		9	sheplani,
+		10	smaragdinus,
+		11	carolinensis,
+		12	cybotes,
+		13	olssoni,
+		14	coelestinus,
+		15	bahorucoensis
+	;
+	TREE * UNTITLED = [&R] ((((((1:0.191894,(2:0.143445,3:0.177496)0.52:0.014165)16:0.145742,(4:0.343729,((5:0.162037,6:0.163089)0.93:0.021638,7:0.220185)17:0.084583)18:0.078833)0.88:0.014879,((8:0.243014,9:0.265938)0.94:0.030911,(10:0.105646,11:0.114723)19:0.089531)20:0.096741)0.92:0.034883,12:0.45416)0.61:0.008808,13:0.306886)21:0.035607,(14:0.238005,15:0.261319)0.76:0.064909)22;
+END;
